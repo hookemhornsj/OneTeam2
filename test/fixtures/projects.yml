@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project_name: MyString
+  user_id: 1
+  location_id: 1
+  group_id: 1
+  department_id: 1
+  begin_date: 2015-03-04
+  end_date: 2015-03-04
+  project_description: MyText
+
+two:
+  project_name: MyString
+  user_id: 1
+  location_id: 1
+  group_id: 1
+  department_id: 1
+  begin_date: 2015-03-04
+  end_date: 2015-03-04
+  project_description: MyText
