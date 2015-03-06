@@ -133,9 +133,9 @@ DEPENDENCIES
   coffee-rails
   jbuilder
   jquery-rails
-  pg (= 0.17.1)
+  pg
   rails (~> 4.1.7)
-  rails_12factor (= 0.0.2)
+  rails_12factor
   sass-rails
   sdoc
   spring
