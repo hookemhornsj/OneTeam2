@@ -15,6 +15,8 @@ class RequestsController < ApplicationController
   # GET /requests/new
   def new
     @request = Request.new
+    @user = User.all
+    @project = Project.all
   end
 
   # GET /requests/1/edit
@@ -24,6 +26,8 @@ class RequestsController < ApplicationController
   # POST /requests
   # POST /requests.json
   def create
+    @user = User.all
+    @project = Project.all
     @request = Request.new(request_params)
 
     respond_to do |format|
