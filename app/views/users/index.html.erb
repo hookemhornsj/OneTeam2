@@ -19,9 +19,9 @@
         <td><%= user.first_name %></td>
         <td><%= user.last_name %></td>
         <td><%= user.email %></td>
-        <td><%= user.title_id %></td>
-        <td><%= user.location_id %></td>
-        <td><%= user.group_id %></td>
+        <td><%= user.title.title_name %></td>
+        <td><%= user.location.city %></td>
+        <td><%= user.group.group_name %></td>
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
