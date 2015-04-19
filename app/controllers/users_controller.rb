@@ -15,6 +15,9 @@ class UsersController < ApplicationController
   # GET /users/new
   def new
     @user = User.new
+    @title = Title.all
+    @location = Location.all
+    @group = Group.all
   end
 
   # GET /users/1/edit
@@ -24,6 +27,9 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
+    @title = Title.all
+    @location = Location.all
+    @group = Group.all
     @user = User.new(user_params)
 
     respond_to do |format|

@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
   belongs_to :group
-  has_one :location
-  has_one :title
+  belongs_to :location
+  belongs_to :title
   has_many :projects
   has_many :requests
   has_many :current_skills

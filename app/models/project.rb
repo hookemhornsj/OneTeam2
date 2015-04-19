@@ -1,7 +1,7 @@
 class Project < ActiveRecord::Base
-  has_one :location
+  belongs_to :location
   belongs_to :user
   has_many :requests
-  has_one :group
-  has_one :department
+  belongs_to :group
+  belongs_to :department
 end

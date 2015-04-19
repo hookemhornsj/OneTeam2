@@ -18,8 +18,8 @@
     <% @requests.each do |request| %>
       <tr>
         <td><%= request.request_name %></td>
-        <td><%= request.user_id %></td>
-        <td><%= request.project_id %></td>
+        <td><%= request.user.last_name %></td>
+        <td><%= request.project.project_name %></td>
         <td><%= request.status %></td>
         <td><%= request.begin_date %></td>
         <td><%= request.end_date %></td>
