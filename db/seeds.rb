@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+locations = Location.create([{ city: 'Chicago, IL, US' }, { city: 'Mumbai, MH, IN' }, { city: 'Houston, TX, US' }, { city: 'Austin, TX, US' }, { city: 'San Francisco, CA, US'}, { city: 'Boston, MA, US' }, { city: 'London, EN, UK'}])
+
+titles = Title.create([{ title_name: 'Engineer' }, { title_name: 'Analyst' }, { title_name: 'Project Lead' }, { title_name: 'UI Specialist' }, { title_name: 'QA Specialist' }])
